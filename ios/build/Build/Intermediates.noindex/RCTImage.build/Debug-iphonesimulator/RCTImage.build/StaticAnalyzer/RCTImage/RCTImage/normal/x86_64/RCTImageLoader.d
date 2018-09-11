@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/jimmyye/Desktop/mt_v2/node_modules/react-native/Libraries/Image/RCTImageLoader.m \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTImageLoader.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTResizeMode.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworking.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/jimmyye/Desktop/mt_v2/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/jimmyye/Desktop/mt_v2/node_modules/react-native/Libraries/Image/RCTImageCache.h \
+  /Users/jimmyye/Desktop/mt_v2/node_modules/react-native/Libraries/Image/RCTImageUtils.h

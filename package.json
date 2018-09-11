@@ -1,0 +1,74 @@
+{
+  "name": "mt_v2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "clean": "rm -rf $TMPDIR/react-* && watchman watch-del-all && npm cache clean --force",
+    "clean:android": "cd android/ && ./gradlew clean && cd .. && react-native run-android",
+    "newclear": "rm -rf $TMPDIR/react-* && watchman watch-del-all && rm -rf ios/build && rm -rf node_modules/ && npm cache clean --force && npm i",
+    "storybook": "storybook start -p 7007",
+    "pretty": "prettier --semi false --print-width 100 --single-quote --trailing-comma all --write \"App/**/*.js\"",
+    "precommit": "lint-staged",
+    "lint": "eslint App"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run pretty",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "apisauce": "^0.16.0",
+    "axios": "^0.18.0",
+    "format-json": "^1.0.3",
+    "lodash": "^4.17.10",
+    "native-base": "^2.8.0",
+    "prop-types": "^15.6.2",
+    "ramda": "^0.25.0",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-animatable": "^1.3.0",
+    "react-native-device-info": "^0.22.5",
+    "react-native-i18n": "^2.0.15",
+    "react-native-vector-icons": "^5.2.0",
+    "react-navigation": "^2.12.1",
+    "react-navigation-redux-helpers": "^2.0.5",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^0.16.0",
+    "reduxsauce": "^1.0.0",
+    "seamless-immutable": "^7.1.4"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.10",
+    "@storybook/addon-links": "^3.4.10",
+    "@storybook/addons": "^3.4.10",
+    "@storybook/react-native": "^3.4.10",
+    "babel-core": "^7.0.0-beta",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^5",
+    "babel-runtime": "^7.0.0-beta",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^0.14.3",
+    "jest": "23.5.0",
+    "lint-staged": "^7.2.2",
+    "prettier": "^1.14.2",
+    "react-dom": "16.4.1",
+    "react-test-renderer": "16.4.1",
+    "reactotron-react-native": "^2.1.0",
+    "reactotron-redux": "^2.1.0",
+    "reactotron-redux-saga": "^2.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
